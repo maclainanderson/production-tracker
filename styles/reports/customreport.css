@@ -1,0 +1,9 @@
+table {
+	font-size: 14px;
+	font-family: sans-serif;
+	text-align: left;
+}
+
+td, th {
+	padding: 5px;
+}

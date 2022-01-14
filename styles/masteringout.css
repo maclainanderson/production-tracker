@@ -1,0 +1,245 @@
+html {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+input {
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+select {
+	width: 104px;
+	height: 21px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+button {
+	width: 120px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-bottom: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: auto;
+}
+
+a {
+	display: flex;
+	width: 120px;
+	height: 18px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	text-decoration: none;
+	justify-content: center;
+	margin-bottom: 3px;
+	color: black;
+}
+
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 660px;
+	height: 338px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 650px;
+	height: 328px;
+}
+
+.basic-info {
+	display: inline-block;
+}
+
+.controls {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+.details {
+	display: inline-block;
+}
+
+.result {
+	display: inline-block;
+}
+
+#job-span {
+	margin-left: 49px;
+}
+
+#job-input {
+	width: 100px;
+}
+
+#wo-span {
+	margin-left: 27px;
+}
+
+#wo-input {
+	width: 100px;
+}
+
+#po-input {
+	width: 100px;
+}
+
+#blank-span {
+	margin-left: 48px;
+}
+
+#blank-input {
+	width: 275px;
+}
+
+#master-input {
+	width: 275px;
+}
+
+#location-span {
+	margin-left: 31px;
+}
+
+#location-input {
+	width: 100px;
+}
+
+#drawer-span {
+	margin-left: 17px;
+}
+
+#drawer-input {
+	width: 100px;
+}
+
+#quality-button {
+	width: 26px;
+	margin-left: 5px;
+}
+
+#date-span {
+	margin-left: 54px;
+}
+
+#date-input {
+	width: 100px;
+}
+
+#operator-span {
+	margin-left: 7px;
+}
+
+#operator-input {
+	width: 100px;
+}
+
+#framing {
+	position: relative;
+	top: 2px;
+}
+
+#design-span {
+	margin-left: 40px;
+	margin-right: 5px;
+}
+
+#design-input {
+	width: 100px;
+}
+
+#design-date-span {
+	margin-left: 34px;
+}
+
+#design-date-input {
+	width: 100px;
+}
+
+#drawing-span {
+	margin-left: 20px;
+}
+
+#drawing-input {
+	width: 100px;
+}
+
+#file-input {
+	width: 100px;
+}
+
+#tool-type-span {
+	margin-left: 24px;
+}
+
+#new-master-span {
+	margin-left: 9px;
+}
+
+#new-master-input {
+	width: 250px;
+}
+
+#comment-span {
+	display: inline-block;
+	margin-left: 9px;
+	margin-bottom: 3px;
+}
+
+#comment-textarea {
+	display: inline-block;
+	margin-left: 8px;
+}
+
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+#modal-content {
+	display: inline-block;
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #e6e6e6;
+	min-height: 85px;
+	text-align: left;
+}
+
+#close {
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}

@@ -1,0 +1,52 @@
+html {
+    font-family: sans-serif;
+}
+
+table {
+    text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+	font-size: 12px;
+}
+
+td:not(:first-child) {
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+td:first-child {
+    padding-left: 5px;
+}
+
+thead tr {
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(3n+0) {
+    border-bottom: 1px solid black;
+}
+
+.col1, .col2 {
+    width: 30px;
+}
+
+.col3 {
+    width: 400px;
+}
+
+.col4 {
+    width: 70px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.col5, .col6, .col7 {
+    width: 110px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+#title-div {
+    text-align: left;
+    width: fit-content;
+}

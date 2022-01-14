@@ -1,0 +1,114 @@
+html {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+table {
+    font-size: 12px;
+}
+
+th {
+    text-align: left;
+}
+
+.col1 {
+    width: 340px;
+}
+
+.col2 {
+    width: 50px;
+}
+
+.col3 {
+    width: 60px;
+}
+
+.col4 {
+    width: 90px;
+}
+
+.col5 {
+    width: 110px;
+}
+
+.col6 {
+    width: 110px;
+}
+
+.col7 {
+    width: 110px;
+}
+
+#date-time-div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#date-time-labels {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#date-label {
+    display: inline-block;
+    float: right;
+}
+
+#time-label {
+    display: inline-block;
+    float: right;
+}
+
+#date-time-values {
+    display: inline-block;
+}
+
+#date-value {
+    display: inline-block;
+    float: left;
+}
+
+#time-value {
+    display: inline-block;
+    float: left;
+}
+
+#title-div {
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+#title {
+    display: block;
+    margin: 0;
+}
+
+#subtitle {
+    display: block;
+    margin: 0;
+}
+
+#range-div {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+#range-labels {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#from-label {
+    float: right;
+}
+
+#to-label {
+    float: right;
+}
+
+#range-values {
+    display: inline-block;
+}

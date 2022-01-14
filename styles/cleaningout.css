@@ -1,0 +1,141 @@
+html {
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+input {
+	width: 100px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+select {
+	margin-bottom: 3px;
+	height: 21px;
+	width: 104px;
+	margin-left: 5px;
+}
+
+button {
+	width: 120px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-bottom: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+a {
+	display: table-cell;
+	width: 120px;
+	height: 18px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 690px;
+	height: 196px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 680px;
+	height: 186px;
+}
+
+.basic-info {
+	display: inline-block;
+}
+
+.basic-info button {
+	width: 90px;
+	margin-left: 10px;
+}
+
+.controls {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+#job-span {
+	margin-left: 34px;
+}
+
+#po-span {
+	margin-left: 5px;
+}
+
+#wo-span {
+	margin-left: 5px;
+}
+
+#tool-span {
+	margin-left: 42px;
+}
+
+#tool-input {
+	width: 246px;
+}
+
+#operator-span {
+	margin-left: 13px;
+}
+
+#date-span {
+	margin-left: 5px;
+}
+
+#date-input {
+	width: 120px;
+}
+
+#location-span {
+	margin-left: 15px;
+}
+
+#drawer-span {
+	margin-left: 20px;
+}
+
+#status-span {
+	margin-left: 28px;
+}
+
+#defect-span {
+	margin-left: 25px;
+}
+
+#comment-span {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#comment-textarea {
+	display: inline-block;
+	margin-left: 5px;
+}

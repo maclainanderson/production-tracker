@@ -1,0 +1,239 @@
+html {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 472px;
+	height: 435px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 462px;
+	height: 425px;
+}
+
+.address-container {
+	border: 1px solid;
+	border-color: white black black white;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.address-container input {
+	margin-bottom: 2px;
+}
+
+#name-span {
+	margin-left: 12px;
+}
+
+#name-input {
+	width: 396px;
+	margin-left: 5px;
+}
+
+#address-input {
+	width: 396px;
+	margin-left: 5px;
+}
+
+#city-span {
+	margin-left: 23px;
+}
+
+#city-input {
+	width: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#state-input {
+	width: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#zip-input {
+	width: 100px;
+	margin-left: 5px;
+}
+
+#phone-span {
+	margin-left: 9px;
+}
+
+#phone-input {
+	width: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#fax-span {
+	margin-left: 8px;
+}
+
+#fax-input {
+	width: 100px;
+	margin-left: 5px;
+}
+
+.retrieve-container {
+	border: 1px solid;
+	border-color: white black black white;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.retrieve-container input {
+	margin-bottom: 2px;
+	margin-left: 5px;
+	width: 20px;
+}
+
+#quality-span {
+	margin-left: 60px;
+}
+
+#process-out-span {
+	float: right;
+}
+
+#electroforming-span {
+	margin-left: 14px;
+}
+
+#comment-span {
+	margin-left: 45px;
+}
+
+#operations-span {
+	float: right;
+}
+
+#measurements-span {
+	margin-left: 12px;
+}
+
+#process-in-span {
+	margin-left: 81px;
+}
+
+#traveler-span {
+	float: right;
+}
+
+#diameter-span {
+	margin-left: 2px;
+}
+
+#progress-span {
+	margin-left: 46px;
+}
+
+#security-span {
+	margin-left: 35px;
+}
+
+.misc-container {
+	border: 1px solid;
+	border-color: white black black white;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.misc-container input {
+	margin-bottom: 2px;
+	margin-left: 5px;
+}
+
+.misc-container select {
+	margin-bottom: 2px;
+	margin-left: 5px;
+}
+
+.misc-container .next {
+	width: 129px;
+}
+
+.misc-container .interval {
+	width: 80px;
+}
+
+#work-span {
+	margin-left: 4px;
+}
+
+#batch-span {
+	float: right;
+}
+
+#clear-span {
+	float: right;
+}
+
+#clock-span {
+	margin-left: 64px;
+}
+
+#delete-span {
+	margin-left: 1px;
+}
+
+#refresh-span {
+	float: right;
+}
+
+#angle-span {
+	float: right;
+}
+
+.controls {
+	border: 1px solid;
+	border-color: white black black white;
+	padding: 5px;
+}	
+
+#submit {
+	display: inline-block;
+	width: 80px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	margin: 5px 95px;
+}
+
+#submit:hover {
+	cursor: pointer;
+}
+
+a {
+	display: inline-block;
+	vertical-align: top;
+	width: 80px;
+	height: 18px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	margin-top: 5px;
+}

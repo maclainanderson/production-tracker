@@ -1,0 +1,146 @@
+html {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+table {
+    font-size: 12px;
+}
+
+th {
+    text-align: right;
+}
+
+td {
+    text-align: right;
+}
+
+.col1 {
+    width: 50px;
+}
+
+.col2 {
+    width: 90px;
+}
+
+.col3 {
+    width: 80px;
+}
+
+.col4 {
+    width: 60px;
+}
+
+.col5 {
+    width: 70px;
+}
+
+.col6 {
+    width: 80px;
+}
+
+.col7 {
+    width: 70px;
+}
+
+.col8 {
+    width: 70px;
+}
+
+.col9 {
+    width: 70px;
+}
+
+.col10 {
+    width: 70px;
+}
+
+.col11 {
+    width: 70px;
+}
+
+.col12 {
+    width: 80px;
+}
+
+#date-time-div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#date-time-labels {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#date-label {
+    display: inline-block;
+    float: right;
+}
+
+#time-label {
+    display: inline-block;
+    float: right;
+}
+
+#date-time-values {
+    display: inline-block;
+}
+
+#date-value {
+    display: inline-block;
+    float: left;
+}
+
+#time-value {
+    display: inline-block;
+    float: left;
+}
+
+#title-div {
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+#title {
+    display: block;
+    margin: 0;
+}
+
+#subtitle {
+    display: block;
+    margin: 0;
+}
+
+#range-div {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+#range-labels {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#tank-from-label {
+    float: right;
+}
+
+#tank-to-label {
+    float: right;
+}
+
+#date-from-label {
+    float: right;
+}
+
+#date-to-label {
+    float: right;
+}
+
+#range-values {
+    display: inline-block;
+}

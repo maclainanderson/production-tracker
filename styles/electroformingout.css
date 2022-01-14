@@ -1,0 +1,270 @@
+html {
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+input {
+	width: 100px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+select {
+	margin-bottom: 3px;
+	height: 21px;
+	width: 104px;
+	margin-left: 5px;
+}
+
+button {
+	width: 120px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-bottom: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: auto;
+}
+
+a {
+	display: table-cell;
+	width: 120px;
+	height: 18px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 690px;
+	height: 444px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 680px;
+	height: 434px;
+}
+
+.basic-info {
+	display: inline-block;
+}
+
+.controls {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+.mandrel-status-info {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 15px;
+}
+
+.tool-status-info {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 15px;
+	border-left: 1px solid black;
+	padding-left: 4px;
+}
+
+.details {
+	display: inline-block;
+	padding-top: 10px;
+	border-top: 1px solid black;
+}
+
+#job-span {
+	margin-left: 21px;
+}
+
+#po-span {
+	margin-left: 5px;
+}
+
+#wo-span {
+	margin-left: 5px;
+}
+
+#tool-span {
+	margin-left: 5px;
+}
+
+#tool-input {
+	width: 396px;
+}
+
+#date-span {
+	margin-left: 7px;
+}
+
+#time-span {
+	margin-left: 11px;
+}
+
+#mandrel-label {
+	margin: 0;
+}
+
+#mandrel-location-span {
+	display: inline-block;
+}
+
+#mandrel-drawer-span {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#mandrel-status-span {
+	display: inline-block;
+	margin-left: 13px;
+}
+
+#mandrel-defect-span {
+	display: inline-block;
+	margin-left: 9px;
+}
+
+#new-form-label {
+	margin: 0;
+}
+
+#tool-location-span {
+	display: inline-block;
+}
+
+#tool-drawer-span {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#tool-status-span {
+	display: inline-block;
+	margin-left: 13px;
+}
+
+#tool-defect-span {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#tool-out-span {
+	margin-left: 75px;
+}
+
+#tool-out-input {
+	width: 510px;
+}
+
+#mandrel-comment-span {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 17px;
+}
+
+#mandrel-comment-textarea {
+	margin-left: 5px;
+}
+
+#tool-comment-span {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 42px;
+}
+
+#tool-comment-textarea {
+	margin-left: 5px;
+}
+
+#thickness-span {
+	margin-left: 40px;
+}
+
+#thickness-span input {
+	width: 70px;
+}
+
+#brightness-span input {
+	width: 70px;
+}
+
+#bow-span {
+	margin-left: 83px;
+}
+
+#type-span {
+	margin-left: 87px;
+}
+
+#close {
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#close:hover {
+	cursor: pointer;
+}
+
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rbga(0,0,0,0.4);
+	text-align: center;
+}
+
+#modal-content {
+	display: inline-block;
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 30px;
+	border: 1px solid #e6e6e6;
+	text-align: left;
+}
+
+#modal-content span {
+	margin-left: 10px;
+}
+
+#modal-content button {
+	display: inline-block;
+	float: left;
+	background-color: black;
+	color: white;
+	display: block;
+	margin-left: 80px;
+	margin-top: 20px;
+}

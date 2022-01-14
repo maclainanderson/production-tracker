@@ -1,0 +1,200 @@
+html {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+input {
+	margin-left: 5px;
+	margin-bottom: 3px;
+	width: 100px;
+}
+
+select {
+	height: 21px;
+	width: 104px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+button {
+	width: 120px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-bottom: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: auto;
+}
+
+a {
+	display: flex;
+	width: 120px;
+	height: 18px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	text-decoration: none;
+	justify-content: center;
+	margin-bottom: 3px;
+	color: black;
+}
+
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 660px;
+	height: 389px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 650px;
+	height: 379px;
+}
+
+.basic-info {
+	display: inline-block;
+}
+
+.controls {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+.details {
+	display: inline-block;
+}
+
+#job-span {
+	margin-left: 49px;
+}
+
+#wo-span {
+	margin-left: 19px;
+}
+
+#po-span {
+	margin-left: 19px;
+}
+
+#blank-span {
+	margin-left: 48px;
+}
+
+#blank-input {
+	width: 268px;
+}
+
+#master-input {
+	width: 268px;
+}
+
+#location-span {
+	margin-left: 30px;
+}
+
+#drawer-span {
+	margin-left: 10px;
+}
+
+#date-span {
+	margin-left: 53px;
+}
+
+#comment-span {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5px;
+	margin-left: 15px;
+}
+
+#design-span {
+	margin-left: 39px;
+}
+
+#design-input {
+	width: 150px;
+	margin-right: 5px;
+}
+
+#design-date-span {
+	margin-left: 33px;
+}
+
+#program-span {
+	margin-left: 17px;
+}
+
+#machine-span {
+	margin-left: 18px;
+}
+
+#machine-input {
+	width: 180px;
+}
+
+#file-span {
+	margin-left: 19px;
+}
+
+#special-span {
+	display: inline-block;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+#special-textarea {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+#modal-content {
+	display: inline-block;
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #e6e6e6;
+	min-height: 85px;
+	width: auto;
+	text-align: left;
+}
+
+#close {
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}

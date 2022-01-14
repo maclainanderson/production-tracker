@@ -1,0 +1,354 @@
+html {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+input {
+	margin-bottom: 3px;
+	width: 75px;
+	height: 16px;
+	margin-left: 5px;
+}
+
+select {
+	margin-bottom: 3px;
+	width: 79px;
+	height: 22px;
+	margin-left: 5px;
+}
+
+select:hover {
+	cursor: pointer;
+}
+
+select:disabled {
+	cursor: auto;
+}
+
+table {
+	width: 100%;
+}
+
+button {
+	width: 120px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: auto;
+}
+
+a {
+	display: table-cell;
+	width: 120px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+table {
+	font-size: 14px;
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+table tbody {
+	display: block;
+	width: 100%;
+	overflow: auto;
+	height: 250px;
+	background-color: white;
+}
+
+tbody tr:hover {
+	cursor: pointer;
+}
+
+table thead {
+	display: block;
+	text-align: left;
+}
+
+.job-list tr:hover {
+	cursor: auto;
+}
+
+tbody.job-list {
+	height: 132px;
+}
+
+.job-list .col1 {
+	width: 65px;
+}
+
+.job-list .col2 {
+	width: 65px;
+}
+
+.job-list .col3, .job-list .col5 {
+	width: 35px;
+}
+
+.job-list .col4, .job-list .col6 {
+	width: 60px;
+}
+
+.job-list .col7 {
+	width: 190px;
+}
+
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 762px;
+	height: 411px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 752px;
+	height: 401px;
+}
+
+.main {
+	display: inline-block;
+	width: 615px;
+	margin-bottom: 5px;
+}
+
+.top-left {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 5px;
+	width: 600px;
+	height: 120px;
+	margin-bottom: 5px;
+}
+
+.left {
+	display: inline-block;
+	vertical-align: top;
+	width: 250px;
+	text-align: right;
+}
+
+.right {
+	display: inline-block;
+	vertical-align: top;
+	width: 150px;
+	text-align: right;
+	margin-left: 1px;
+}
+
+.middle-left {
+	display: inline-block;
+	vertical-align: top;
+	width: 600px;
+	height: 150px;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.controls {
+	display: inline-block;
+	vertical-align: top;
+	width: 120px;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.bottom {
+	display: inline-block;
+	vertical-align: top;
+	width: 739px;
+	height: 85px;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.close {
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.col1 {
+	width: 400px;
+}
+
+.col2 {
+	width: 100px;
+}
+
+.col3 {
+	width: 150px;
+}
+
+.col4 {
+	width: 100px;
+}
+
+.col5 {
+	width: 100px;
+}
+
+.col6 {
+	width: 100px;
+}
+
+.comment-left {
+	display: inline-block;
+}
+
+.comment-right {
+	display: inline-block;
+	vertical-align: top;
+	width: 170px;
+}
+
+.comment-right button {
+	width: 80px;
+	background-color: black;
+	color: white;
+	margin-left: 5px;
+}
+
+.status-table {
+	width: 700px;
+	table-layout: fixed;
+}
+
+.status-table tbody {
+	display: block;
+	width: 100%;
+	overflow: auto;
+	height: 350px;
+}
+
+.status-table thead tr {
+	display: block;
+	text-align: left;
+}
+
+.status-col1 {
+	width: 100px;
+}
+
+.status-col2 {
+	width: 75px;
+}
+
+.status-col3 {
+	width: 150px;
+}
+
+.status-col4 {
+	width: 70px;
+}
+
+.status-col5 {
+	width: 150px;
+}
+
+.status-col6 {
+	width: 100px;
+}
+
+#diameter-span {
+	margin-left: 185px;
+}
+
+#created-span {
+	margin-left: 117px;
+	margin-right: 6px;
+}
+
+#search-input {
+	display: inline-block;
+	width: 500px;
+	margin: 0 0 0 5px;
+}
+
+#tool-header {
+	display: inline-block;
+	width: 500px;
+	margin: 0 0 0 5px;
+}
+
+#tool-input {
+	width: 500px;
+	margin: 0 0 0 5px;
+}
+
+#search-button {
+	width: 60px;
+}
+
+#search-form-button {
+	width: 60px;
+	background-color: black;
+	color: white;
+	margin-left: 10px;
+}
+
+#quality-button {
+	width: 30px;
+}
+
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rbga(0,0,0,0.4);
+}
+
+#modal-content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #e6e6e6;
+	width: 1000px;
+	min-height: 85px;
+}
+
+#comment-tool-input {
+	width: 271px;
+}
+
+#process-input {
+	width: 271px;
+}
+
+#date-input {
+	width: 125px;
+}

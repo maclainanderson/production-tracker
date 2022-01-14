@@ -1,0 +1,251 @@
+html {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+input {
+	margin-left: 5px;
+	margin-bottom: 3px;
+	width: 100px;
+}
+
+select {
+	margin-left: 5px;
+	margin-bottom: 3px;
+	height: 21px;
+	width: 104px;
+}
+
+button {
+	width: 120px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-bottom: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: auto;
+}
+
+a {
+	display: flex;
+	width: 120px;
+	height: 18px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	text-decoration: none;
+	justify-content: center;
+	color: black;
+	margin-bottom: 3px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 715px;
+	height: 503px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 705px;
+	height: 493px;
+}
+
+.basic-info {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.controls {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+.tool-list {
+	display: inline-block;
+	width: auto;
+}
+
+.col1 {
+	width: 415px;
+}
+
+.col2 {
+	width: 70px;
+}
+
+.col3 {
+	width: 70px;
+}
+
+.col4 {
+	width: 70px;
+}
+
+.col5 {
+	width: 70px;
+}
+
+.table-controls {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 8px;
+}
+
+.table-controls button {
+	width: 80px;
+}
+
+#customer-span {
+	margin-left: 16px;
+}
+
+#customer-input {
+	width: 280px;
+}
+
+#target-span {
+	margin-left: 38px;
+}
+
+#operator-span {
+	margin-left: 22px;
+}
+
+#tool-table {
+	table-layout: fixed;
+}
+
+#tool-table thead tr {
+	display: block;
+	text-align: left;
+}
+
+#tool-table tbody {
+	display: block;
+	overflow: auto;
+	width: 100%;
+	height: 250px;
+	background-color: white;
+}
+
+#tool-list {
+	table-layout: fixed;
+}
+
+#tool-list thead tr {
+	display: block;
+	text-align: left;
+}
+
+#tool-list tbody {
+	display: block;
+	overflow: auto;
+	width: 100%;
+	height: 250px;
+	text-align: left;
+}
+
+#tool-list .col1 {
+	width: 400px;
+}
+
+#tool-list thead .col1 {
+	width: 385px;
+}
+
+#tool-list .col2 {
+	width: 100px;
+}
+
+#tool-input {
+	display: inline-block;
+	width: 400px;
+	margin-top: 5px;
+}
+
+#special-span {
+	display: inline-block;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	margin-top: 5px;
+}
+
+#special-textarea {
+	display: inline-block;
+}
+
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+}
+
+#modal-content {
+	display: inline-block;
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #e6e6e6;
+	min-height: 85px;
+}
+
+#modal-content button {
+	float: right;
+	margin-top: 8px;
+	margin-right: 5px;
+	background-color: black;
+	color: white;
+}
+
+#close {
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#close:hover {
+	cursor: pointer;
+}
+
+#controls {
+	display: inline-block;
+	float: right;
+}
+
+#modal-content table {
+	float: left;
+}

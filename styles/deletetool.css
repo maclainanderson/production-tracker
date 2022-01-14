@@ -1,0 +1,114 @@
+html {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 472px;
+	height: 143px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 462px;
+	height: 133px;
+}
+
+.content {
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.content input {
+	margin-bottom: 2px;
+	margin-left: 5px;
+}
+
+.content select {
+	margin-left: 5px;
+	height: 21px;
+}
+
+#search-button {
+	width: 60px;
+	margin-right: 5px;
+}
+
+#quality-button {
+	width: 30px;
+}
+
+#tool-input {
+	margin-right: 5px;
+	width: 277px;
+}
+
+#init-span {
+	margin-left: 54px;
+}
+
+#init-input {
+	width: 50px;
+}
+
+#location-span {
+	margin-left: 43px;
+}
+
+#status-span {
+	margin-left: 54px;
+}
+
+#status-select {
+	width: 104px;
+}
+
+.controls {
+	padding: 5px;
+}
+
+.controls button {
+	margin-left: 95px;
+	margin-right: 90px;
+}
+
+button {
+	display: inline-block;
+	width: 80px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+a {
+	display: inline-block;
+	vertical-align: top;
+	width: 80px;
+	height: 18px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}

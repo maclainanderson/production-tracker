@@ -1,0 +1,171 @@
+html {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+button {
+	display: inline-block;
+	width: 100px;
+	color: white;
+	background-color: black;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+a {
+	display: table-cell;
+	width: 100px;
+	height: 18px;
+	color: white;
+	background-color: black;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+th {
+	border-bottom: 1px solid black;
+}
+
+.left-arrow {
+	display: inline-block;
+	vertical-align: top;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	transform: rotate(-45deg);
+	width: 25px;
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.right-arrow {
+	display: inline-block;
+	vertical-align: top;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	transform: rotate(135deg);
+	width: 25px;
+	height: 25px;
+	margin-left: 65px;
+	margin-top: -26px;
+}
+
+.horizontal-line {
+	display: inline-block;
+	vertical-align: top;
+	width: 87px;
+	height: 0;
+	border: 1px solid black;
+	margin-left: -33px;
+	margin-top: 22px;
+}
+
+.up-arrow {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	transform: rotate(45deg);
+	width: 25px;
+	height: 25px;
+	margin-top: 7px;
+	margin-left: 11px;
+}
+
+.down-arrow {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	transform: rotate(225deg);
+	width: 25px;
+	height: 25px;
+	margin-top: -30px;
+	margin-left: 11px;
+}
+
+.vertical-line {
+	border: 1px solid black;
+	width: 0;
+	height: 88px;
+	margin-top: -30px;
+	margin-left: 23px;
+}
+
+#container {
+	margin-left: 30%;
+}
+
+#left {
+	display: inline-block;
+}
+
+#table1 {
+	width: 150px;
+	min-height: 920px;
+	border: 1px solid black;
+	text-align: left;
+}
+
+#center {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10%;
+}
+
+#swap1 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid black;
+	margin-top: 130px;
+}
+
+#controls {
+	display: inline-block;
+	width: 100;
+	margin-top: 250px;
+}
+
+#swap2 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid black;
+	margin-top: 250px;
+}
+
+#right {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-left: 10%;
+}
+
+#table2 {
+	width: 150px;
+	height: 300px;
+	border: 1px solid black;
+	margin-bottom: 100px;
+	text-align: left;
+}
+
+#swap3 {
+	display: inline-block;
+	width: 50px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+#table3 {
+	width: 150px;
+	height: 300px;
+	border: 1px solid black;
+	text-align: left;
+	margin-top: 100px;
+}

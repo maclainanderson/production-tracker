@@ -1,0 +1,259 @@
+html {
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+input {
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+select {
+	margin-left: 5px;
+}
+
+select:hover {
+	cursor: pointer;
+}
+
+select:disabled {
+	cursor: auto;
+}
+
+button {
+	background-color: white;
+	border-radius: 3px;
+	border: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: auto;
+}
+
+a {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 148px;
+	height: 15px;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: black;
+	background-color: white;
+	border-radius: 3px;
+	padding: 1px 0;
+}
+
+table {
+	font-size: 14px;
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+table tbody {
+	display: block;
+	width: 100%;
+	overflow: auto;
+	height: 250px;
+	background-color: white;
+}
+
+tbody tr:hover {
+	cursor: pointer;
+}
+
+table thead {
+	display: block;
+	text-align: left;
+}
+
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 843px;
+	height: 426px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 833px;
+	height: 416px;
+}
+
+.top-left {
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	padding: 5px;
+	height: 126px;
+	width: 639px;
+}
+
+.controls {
+	display: inline-block;
+	float: right;
+	width: 165px;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.controls-left {
+	display: inline-block;
+	width: 81px;
+}
+
+.controls-right {
+	display: inline-block;
+	width: 80px;
+}
+
+.center {
+	display: inline-block;
+	border-top: 1px solid black;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+.center-left {
+	display: inline-block;
+	text-align: right;
+	margin-left: 40px;
+}
+
+.center-right {
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	margin-left: 20px;
+}
+
+.center-bottom {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.bottom {
+	display: inline-block;
+	border-top: 1px solid black;
+	padding: 5px;
+	width: 821px;
+}
+
+.small {
+	width: 80px;
+	margin-bottom: 2px;
+}
+
+.hardness {
+	width: 100px;
+}
+
+.big {
+	width: 165px;
+	margin-bottom: 3px;
+}
+
+.col1 {
+	width: 150px;
+}
+
+.col2 {
+	width: 100px;
+}
+
+.col3, .col4, .col5 {
+	width: 80px;
+}
+
+#blank {
+	width: 487px;
+}
+
+#date {
+	width: 94px;
+	margin-right: 64px;
+}
+
+#location-input {
+	width: 150px;
+}
+
+#initials {
+	width: 30px;
+	margin-right: 457px;
+}
+
+#size {
+	width: 177px;
+}
+
+#date-created {
+	width: 177px;
+	margin-right: 21px;
+}
+
+#material-select {
+	margin-right: 133px;
+}
+
+#additive-select {
+	margin-right: 20px;
+}
+
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rbga(0,0,0,0.4);
+}
+
+#modal-content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #e6e6e6;
+	width: 525px;
+}
+
+#modal-content button {
+	background-color: black;
+	color: white;
+	margin-left: 5px;
+}
+
+#modal-content input {
+	width: 100px;
+}
+
+#close {
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#close:hover {
+	cursor: pointer;
+}

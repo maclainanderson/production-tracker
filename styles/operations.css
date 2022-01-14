@@ -1,0 +1,74 @@
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 440px;
+	height: 405px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 430px;
+	height: 395px;
+}
+
+.logo {
+	height: 50px;
+	width: 430px;
+	margin-left: 5px;
+}
+
+h1 {
+	display: inline-block;
+	font-family: sans-serif;
+	margin: 6.5px;
+	vertical-align: top;
+}
+
+.menu-button {
+	vertical-align: top;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 50px 31px 0 0;
+}
+
+.left {
+	margin-left: 30px;
+}
+
+.right {
+	margin-right: 1px;
+}
+
+.button {
+	display: block;
+	width: 98px;
+	height: 98px;
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	text-decoration: none;
+	color: black;
+	margin: auto;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+	
+.button:active {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+}

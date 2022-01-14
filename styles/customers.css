@@ -1,0 +1,350 @@
+html {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+select:hover {
+	cursor: pointer;
+}
+
+select:disabled {
+	cursor: auto;
+}
+
+textarea {
+	margin-bottom: 3px;
+}
+
+button {
+	display: inline-block;
+	width: 80px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: auto;
+}
+
+a {
+	display: table-cell;
+	width: 164px;
+	height: 18px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+table {
+	font-family: sans-serif;
+	font-size: 14px;
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
+	max-width: 900px;
+}
+
+table tbody {
+	overflow-y: auto;
+	max-height: 200px;
+	background-color: white;
+}
+
+table thead {
+	display: block;
+	text-align: left;
+}
+
+tbody tr:hover {
+	cursor: pointer;
+}
+
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 554px;
+	height: 366px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 544px;
+	height: 356px;
+}
+
+.content {
+	display: inline-block;
+	vertical-align: top;
+	width: 370px;
+}
+
+.content input {
+	width: 75px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+.content select {
+	width: 79px;
+}
+
+.controls {
+	display: inline-block;
+	width: 170px;
+}
+
+.col1 {
+	min-width: 80px;
+}
+
+.col2 {
+	min-width: 300px;
+}
+
+.col3 {
+	min-width: 300px;
+}
+
+.col4 {
+	min-width: 150px;
+}
+
+.col5 {
+	min-width: 120px;
+}
+
+.col6 {
+	min-width: 150px;
+}
+
+.col7 {
+	min-width: 60px;
+}
+
+.col8 {
+	min-width: 180px;
+}
+
+.col9 {
+	min-width: 130px;
+}
+
+.col10 {
+	min-width: 100px;
+}
+
+.col11 {
+	min-width: 30px;
+}
+
+.col12 {
+	min-width: 100px;
+}
+
+.col13 {
+	min-width: 220px;
+}
+
+.col14 {
+	min-width: 240px;
+}
+
+.col15 {
+	min-width: 70px;
+}
+
+.col16 {
+	min-width: 70px;
+}
+
+.col17 {
+	min-width: 120px;
+}
+
+#customer-span {
+	margin-left: 44px;
+}
+
+#customer-input {
+	width: 100px;
+}
+
+#parent-span {
+	margin-left: 5px;
+}
+
+#parent-input {
+	width: 111px;
+}
+
+#name-span {
+	margin-left: 64px;
+}
+
+#name-input {
+	width: 264px;
+}
+
+#address1-span {
+	margin-left: 16px;
+}
+
+#address2-span {
+	margin-left: 16px;
+}
+
+#address1-input {
+	width: 264px;
+}
+
+#address2-input {
+	width: 264px;
+}
+
+#city-span {
+	margin-left: 75px;
+}
+
+#city-input {
+	width: 100px;
+}
+
+#state-span {
+	margin-left: 13px;
+}
+
+#state-input {
+	width: 30px;
+}
+
+#zip-span {
+}
+
+#zip-input {
+	width: 52px;
+}
+
+#country-span {
+	margin-left: 54px;
+}
+
+#country-input {
+	width: 264px;
+}
+
+#contact-span {
+	margin-left: 55px;
+}
+
+#contact-input {
+	width: 264px;
+}
+
+#phone-span {
+	margin-left: 61px;
+}
+
+#phone-input {
+	width: 100px;
+}
+
+#ext-span {
+	margin-left: 25px;
+}
+
+#ext-input {
+	width: 50px;
+}
+
+#fax-span {
+	margin-left: 76px;
+}
+
+#fax-input {
+	width: 100px;
+}
+
+#status-span {
+	margin-left: 13px;
+}
+
+#shipre1-input {
+	width: 264px;
+}
+
+#shipre2-input {
+	width: 264px;
+}
+
+#shipto-span {
+	vertical-align: top;
+	margin-left: 55px;
+}
+
+#shipto-textarea {
+	margin-left: 6px;
+}
+
+#date-span {
+	margin-left: 25px;
+}
+
+#date-input {
+	width: 264px;
+}
+
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rbga(0,0,0,0.4);
+}
+
+#modal-content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #e6e6e6;
+	width: 900px;
+}
+
+#close {
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#close:hover {
+	cursor: pointer;
+}

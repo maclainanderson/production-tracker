@@ -1,0 +1,43 @@
+.login-box {
+	height: auto;
+	width: 250px;
+	margin: auto;
+	margin-top: 10%;
+	padding: 5px;
+	background-color: #c7c7c7;
+	border: 1px solid black;
+}
+
+.menu-bar {
+	height: 14px;
+	font-size: 12px;
+	width: auto;
+	border: 1px solid white;
+	background-color: #91afe0;
+}
+
+.input-box {
+	vertical-align: top;
+	height: 83px;
+	width: auto;
+	height: 112px;
+	padding-top: 10px;
+	background-color: #c9c9c9;
+	font-family: sans-serif;
+}
+
+.input {
+	border-radius: 3px;
+	color: #CCCCCC;
+	display: block;
+	width: 125px;
+	margin: 0 auto 20px auto;
+}
+
+.button {
+	width: 75px;
+	height: 20px;
+	margin: 0 86.5px 10px 86.5px;
+	background-color: white;
+	border-radius: 3px;
+}

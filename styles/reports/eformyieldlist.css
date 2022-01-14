@@ -1,0 +1,199 @@
+html {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+table {
+    font-size: 12px;
+}
+
+th {
+    text-align: left;
+}
+
+.col1 {
+    width: 340px;
+}
+
+.col2 {
+    width: 90px;
+}
+
+.col3 {
+    width: 80px;
+}
+
+.col4 {
+    width: 100px;
+}
+
+.col5 {
+    width: 110px;
+}
+
+.col6 {
+    width: 70px;
+}
+
+.col7 {
+    width: 80px;
+}
+
+.label {
+    float: right;
+}
+
+.value {
+    float: left;
+}
+
+#date-time-div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#date-time-labels {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#date-label {
+    display: inline-block;
+    float: right;
+}
+
+#time-label {
+    display: inline-block;
+    float: right;
+}
+
+#date-time-values {
+    display: inline-block;
+}
+
+#date-value {
+    display: inline-block;
+    float: left;
+}
+
+#time-value {
+    display: inline-block;
+    float: left;
+}
+
+#title-div {
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+#title {
+    display: block;
+    margin: 0;
+}
+
+#subtitle {
+    display: block;
+    margin: 0;
+}
+
+#range-div {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+#range-labels {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#from-label {
+    float: right;
+}
+
+#to-label {
+    float: right;
+}
+
+#range-values {
+    display: inline-block;
+}
+
+#mandrel-count-div {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#mandrel-label {
+    display: block;
+    vertical-align: top;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+}
+
+#mandrel-number-div {
+    display: inline-block;
+}
+
+#mandrel-number-label-div {
+    display: inline-block;
+}
+
+#mandrel-number-values-div {
+    display: inline-block;
+}
+
+#mandrel-percent-div {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#mandrel-percent-label-div {
+    display: inline-block;
+}
+
+#mandrel-percent-values-div {
+    display: inline-block;
+}
+
+#tool-count-div {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+#tool-label {
+    display: block;
+    vertical-align: top;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+}
+
+#tool-number-div {
+    display: inline-block;
+}
+
+#tool-number-label-div {
+    display: inline-block;
+}
+
+#tool-number-values-div {
+    display: inline-block;
+}
+
+#tool-percent-div {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#tool-percent-label-div {
+    display: inline-block;
+}
+
+#tool-percent-values-div {
+    display: inline-block;
+}

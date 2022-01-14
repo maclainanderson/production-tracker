@@ -1,0 +1,424 @@
+html {
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+input {
+	width: 100px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+select {
+	margin-bottom: 3px;
+	height: 21px;
+	width: 104px;
+	margin-left: 5px;
+}
+
+button {
+	width: 120px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-bottom: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: auto;
+}
+
+a {
+	display: table-cell;
+	width: 120px;
+	height: 18px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+
+table {
+	table-layout: fixed;
+}
+
+table thead tr {
+	display: block;
+	text-align: left;
+}
+
+table tbody {
+	display: block;
+	overflow: auto;
+	width: 100%;
+	max-height: 250px;
+	background-color: white;
+}
+
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 690px;
+	height: 587px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 680px;
+	height: 577px;
+}
+
+.basic-info {
+	display: inline-block;
+}
+
+.controls {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+.main {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 10px 0 10px 0;
+	margin: 10px 0 15px 0;
+}
+
+.part-info {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.current-info {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	margin-top: 15px;
+}
+
+.tank-info button {
+	margin-left: 10px;
+}
+
+#job-span {
+	margin-left: 21px;
+}
+
+#po-span {
+	margin-left: 22px;
+}
+
+#wo-span {
+	margin-left: 5px;
+}
+
+#tool-span {
+	margin-left: 4px;
+}
+
+#tool-input {
+	width: 413px;
+}
+
+#location-span {
+	display: inline-block;
+	margin-left: 2px;
+}
+
+#drawer-span {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#status-span {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+#defect-span {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#date-span {
+	margin-left: 9px;
+}
+
+#time-span {
+	margin-left: 11px;
+}
+
+#date-out-span {
+	margin-left: 162px;
+}
+
+#time-out-span {
+	margin-left: 10px;
+}
+
+#width-label {
+	float: right;
+	margin-right: 11px;
+}
+
+#length-label {
+	float: right;
+	margin-right: 36px;
+}
+
+#size-span {
+	margin-left: 124px;
+}
+
+#length-input {
+	width: 45px;
+	margin-right: 5px;
+}
+
+#width-input {
+	width: 45px;
+	margin-left: 6px;
+}
+
+#forming-density-input {
+	width: 114px;
+}
+
+#forming-time-span {
+	margin-left: 95px;
+}
+
+#forming-time-input {
+	width: 114px;
+}
+
+#building-density-span {
+	margin-left: 1px;
+}
+
+#building-density-input {
+	width: 114px;
+}
+
+#target-thickness-span {
+	margin-left: 38px;
+}
+
+#target-thickness-input {
+	width: 114px;
+}
+
+#forming-current-span {
+	display: inline-block;
+	float: right;
+}
+
+#forming-current-input {
+	width: 100px;
+}
+
+#building-current-span {
+	display: inline-block;
+	float: right;
+}
+
+#building-current-input {
+	width: 100px;
+}
+
+#cycle-time-span {
+	display: inline-block;
+	float: right;
+}
+
+#cycle-hours-input {
+	width: 45px;
+}
+
+#cycle-minutes-input {
+	width: 45px;
+	margin-left: 6px;
+}
+
+#forming-date-span {
+	display: inline-block;
+	float: right;
+}
+
+#forming-date-input {
+	width: 120px;
+}
+
+#tank-span {
+	margin-left: 13px;
+}
+
+#tank-input {
+	width: 45px;
+}
+
+#station-input {
+	width: 45px;
+	margin-left: 6px;
+}
+
+#stress-div {
+	display: inline-block;
+}
+
+#stress-div input {
+	width: 115px;
+	margin-left: 0;
+}
+
+#stress-span {
+	display: inline-block;
+}
+
+#stress-date-span {
+	display: inline-block;
+}
+
+#stress-time-span {
+	display: inline-block;
+}
+
+#strip-span {
+	display: inline-block;
+}
+
+#mins-span {
+	display: inline-block;
+}
+
+#constant-span {
+	display: inline-block;
+}
+
+#units-span {
+	display: inline-block;
+}
+
+#imain-span {
+	display: inline-block;
+}
+
+#iaux-span {
+	display: inline-block;
+}
+
+#uaux-span {
+	display: inline-block;
+}
+
+#iaux-imain-span {
+	display: inline-block;
+}
+
+#comment-span {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 54px;
+}
+
+#comment-textarea {
+	margin-top: 10px;
+}
+
+#special-span {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5px;
+}
+
+#special-textarea {
+	display: inline-block;
+}
+
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+}
+
+#modal-content {
+	display: inline-block;
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #e6e6e6;
+	min-height: 85px;
+	text-align: left;
+}
+
+#close {
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#close:hover {
+	cursor: pointer;
+}
+
+#tank-table .col1 {
+	width: 35px;
+}
+
+#tank-table .col2 {
+	width: 55px;
+}
+
+#tank-table .col3 {
+	width: 65px;
+}
+
+#tank-table .col4 {
+	width: 110px;
+}
+
+#tank-table .col5 {
+	width: 90px;
+}
+
+#tank-table .col6 {
+	width: 110px;
+}
+
+#tank-table .col7 {
+	width: 400px;
+}
+
+#tank-table .col8 {
+	width: 60px;
+}

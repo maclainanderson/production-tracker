@@ -1,0 +1,291 @@
+html {
+	font-family: sans-serif;
+}
+
+select {
+	margin-left: 5px;
+}
+
+input {
+	width: 100px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+button {
+	width: 120px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-bottom: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: auto;
+}
+
+a {
+	display: table-cell;
+	width: 120px;
+	height: 18px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+
+table {
+	border-collapse: collapse;
+	font-size: 14px;
+	width: 100%;
+	table-layout: fixed;
+}
+
+table tbody {
+	display: block;
+	width: 100%;
+	overflow: scroll;
+	height: 250px;
+	background-color: white;
+}
+
+thead tr {
+	display: table;
+}
+
+table tbody tr:hover {
+	cursor: pointer;
+}
+
+table thead {
+	text-align: left;
+}
+
+.container {
+	display: block;
+	width: 1237px;
+	margin: 100px auto;
+}
+
+.outer {
+	display: inline-block;
+	float: left;
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 980px;
+	height: 434px;
+}
+
+.inner {
+	display: inline-block;
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 970px;
+	height: 424px;
+}
+
+.filter-outer {
+	display: inline-block;
+	vertical-align: top;
+	float:left;
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 181px;
+}
+
+.filter-inner {
+	display: inline-block;
+	vertical-align: top;
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 171px;
+}
+
+.filter-inner select {
+	width: 154px;
+	margin-left: 0;
+	margin-bottom: 5px;
+}
+
+.filter-inner input {
+	width: 150px;
+	margin-left: 0;
+}
+
+.left-arrow {
+	width: 20px;
+	height: 20px;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	transform: rotate(-45deg);
+	margin: 11px 0 0 17px;
+}
+
+.right-arrow {
+	width: 20px;
+	height: 20px;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	transform: rotate(135deg);
+	margin: 11px 0 0 7px;
+}
+
+.main {
+	margin-bottom: 10px;
+}
+
+.col1 {
+	width: 90px;
+}
+
+.col2 {
+	width: 500px;
+}
+
+.col3 {
+	width: 250px;
+}
+
+.col4 {
+	width: 105px;
+}
+
+.left {
+	display: inline-block;
+	font-size: 12px;
+}
+
+.controls {
+	vertical-align: top;
+	display: inline-block;
+	width: 120px;
+	float: right;
+	margin-right: 3px;
+}
+
+#tool-input {
+	width: 500px;
+	margin-top: 5px;
+}
+
+#order-container {
+	margin-bottom: 10px;
+}
+
+#filter-container {
+	margin-bottom: 10px;
+}
+
+#arrow {
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-color: #c9c9c9;
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+}
+
+#arrow:hover {
+	cursor: pointer;
+}
+
+#batch-span {
+	margin-left: 70px;
+}
+
+#job-span {
+	margin-left: 41px;
+}
+
+#po-span {
+	margin-left: 7px;
+}
+
+#operator-in-span {
+	margin-left: 40px;
+}
+
+#loc-span {
+	margin-left: 30px;
+}
+
+#drawer-span {
+	margin-left: 32px;
+}
+
+#newname-span {
+	margin-left: 23px;
+}
+
+#new-tool-input {
+	width: 430px;
+}
+
+#newdrawer-span {
+	margin-left: 32px;
+}
+
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rbga(0,0,0,0.4);
+}
+
+#modal-content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #e6e6e6;
+	width: 550px;
+	min-height: 85px;
+}
+
+#modal-content span:hover {
+	cursor: pointer;
+}
+
+#close {
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#close:hover {
+	cursor: pointer;
+}

@@ -1,0 +1,275 @@
+html {
+	font-family: sans-serif;
+}
+
+select, input {
+	margin-left: 5px;
+}
+
+select:hover {
+	cursor: pointer;
+}
+
+button {
+	width: 150px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-bottom: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: auto;
+}
+
+a {
+	display: flex;
+	width: 150px;
+	height: 18px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	text-decoration: none;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	margin-bottom: 3px;
+}
+
+table {
+	font-size: 14px;
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+table tbody {
+	display: block;
+	width: 100%;
+	overflow: auto;
+	height: 250px;
+	background-color: white;
+}
+
+table thead {
+	display: block;
+	text-align: left;
+}
+
+tbody tr:hover {
+	cursor: pointer;
+}
+
+.container {
+	display: block;
+	width: 867px;
+	margin: 100px auto;
+}
+
+.outer {
+	display: inline-block;
+	float: left;
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 610px;
+	height: 490px;
+}
+
+.inner {
+	display: inline-block;
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 600px;
+	height: 480px;
+}
+
+.filter-outer {
+	display: inline-block;
+	vertical-align: top;
+	float:left;
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 181px;
+}
+
+.filter-inner {
+	display: inline-block;
+	vertical-align: top;
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 171px;
+}
+
+.filter-inner select {
+	width: 154px;
+	margin-left: 0;
+	margin-bottom: 5px;
+}
+
+.filter-inner input {
+	width: 150px;
+	margin-left: 0;
+}
+
+.left-arrow {
+	width: 20px;
+	height: 20px;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	transform: rotate(-45deg);
+	margin: 11px 0 0 17px;
+}
+
+.right-arrow {
+	width: 20px;
+	height: 20px;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	transform: rotate(135deg);
+	margin: 11px 0 0 7px;
+}
+
+.main {
+	width: 100%;
+}
+
+.main span {
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+.left {
+	display: inline-block;
+	width: 440px;
+	font-size: 12px;
+}
+
+.left table {
+	font-size: 12px;
+}
+
+.controls {
+	float: right;
+	vertical-align: top;
+	display: inline-block;
+	width: 150px;
+	margin-top: 10px;
+}
+
+.col1, .col5, .col7 {
+	width: 70px;
+}
+
+.col2 {
+	width: 100px;
+}
+
+.col3 {
+	width: 80px;
+}
+
+.col4, .col6 {
+	width: 100px;
+}
+
+#order-container {
+	margin-bottom: 10px;
+}
+
+#filter-container {
+	margin-bottom: 10px;
+}
+
+#arrow {
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-color: #c9c9c9;
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+}
+
+#arrow:hover {
+	cursor: pointer;
+}
+
+#tool-table .col1 {
+	width: 340px;
+}
+
+#tool-table .col2 {
+	width: 100px;
+}
+
+#tool-table tbody {
+	height: 160px;
+}
+
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rbga(0,0,0,0.4);
+	text-align: center;
+}
+
+#modal-content {
+	display: inline-block;
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #e6e6e6;
+	width: fit-content;
+	min-height: 85px;
+	text-align: left;
+}
+
+#modal-content button {
+	background-color: black;
+	color: white;
+	width: 80px;
+	margin: 10px 20px 0 0;
+}
+
+#close {
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#close:hover {
+	cursor: pointer;
+}

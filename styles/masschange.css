@@ -1,0 +1,94 @@
+html {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+select {
+	height: 22px;
+}
+
+input {
+	height: 16px;
+	margin-bottom: 3px;
+}
+
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 399px;
+	height: 70px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 389px;
+	height: 60px;
+}
+
+.content {
+	display: inline-block;
+	vertical-align: top;
+	width: 285px;
+}
+
+.content input {
+	margin-left: 5px;
+	margin-bottom: 3px;
+	width: 200px;
+}
+
+.content select {
+	margin-left: 5px;
+	width: 204px;
+}
+
+#mandrel-span {
+	margin-left: 10px;
+}
+
+#type-span {
+}
+
+.controls {
+	display: inline-block;
+	width: 100px;
+}
+
+button {
+	display: inline-block;
+	width: 100px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+a {
+	display: table-cell;
+	width: 100px;
+	height: 18px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}

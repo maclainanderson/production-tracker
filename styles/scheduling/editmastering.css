@@ -1,0 +1,266 @@
+html {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+input {
+	margin-bottom: 3px;
+	margin-left: 5px;
+	width: 100px;
+}
+
+select {
+	margin-bottom: 3px;
+	margin-left: 5px;
+	height: 21px;
+}
+
+button {
+	width: 120px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-bottom: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: auto;
+}
+
+a {
+	display: flex;
+	width: 120px;
+	height: 18px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	text-decoration: none;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	margin-bottom: 3px;
+}
+
+table {
+	font-family: sans-serif;
+	font-size: 14px;
+	width: auto;
+	table-layout: fixed;
+}
+
+table tr {
+	text-align: left;
+}
+
+table thead tr {
+	display: block;
+}
+
+table tbody {
+	display: block;
+	width: 100%;
+	overflow: auto;
+	height: 230px;
+}
+
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 685px;
+	height: 367px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 675px;
+	height: 357px;
+}
+
+.basic-info {
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-left: 11px;
+}
+
+.controls {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	width: 120px;
+}
+
+.design-info {
+	display: inline-block;
+	width: 75%;
+}
+
+#po-span {
+	margin-left: 41px;
+}
+
+#job-span {
+	margin-left: 38px;
+}
+
+#wo-span {
+	margin-left: 33px;
+}
+
+#design-span {
+	margin-left: 29px;
+}
+
+#design-input {
+	width: 140px;
+}
+
+#design-search-button {
+	width: 80px;
+	margin-left: 10px;
+}
+
+#drawing-span {
+	margin-left: 21px;
+}
+
+#file-span {
+	margin-left: 5px;
+}
+
+#operator-span {
+	margin-left: 14px;
+}
+
+#recut-span {
+	margin-left: 83px;
+}
+
+#blank-span {
+	margin-left: 48px;
+}
+
+#blank-input {
+	width: 280px;
+}
+
+#blank-search-button {
+	width: 80px;
+	margin-left: 10px;
+}
+
+#master-input {
+	width: 280px;
+}
+
+#master-search-button {
+	width: 80px;
+	margin-left: 10px;
+}
+
+#size-span {
+	margin-left: 56px;
+}
+
+#size-input {
+	margin-right: 5px;
+}
+
+#tool-type-span {
+	margin-left: 53px;
+}
+
+#cosmetics-span {
+	margin-left: 18px;
+}
+
+#unit-button {
+	float: right;
+}
+
+#special-span {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 7px;
+	margin-bottom: 5px;
+}
+
+#special-textarea {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+#modal-content {
+	display: inline-block;
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #e6e6e6;
+	min-height: 85px;
+	width: auto;
+	text-align: left;
+}
+
+#close {
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#close:hover {
+	cursor: pointer;
+}
+
+#design-table .col1 {
+	width: 150px;
+}
+
+#design-table .col2, #design-table .col3 {
+	width: 100px;
+}
+
+#blank-table .col1 {
+	width: 150px;
+}
+
+#blank-table .col2, #blank-table .col3 {
+	width: 100px;
+}
+
+#master-table .col1 {
+	width: 300px;
+}
+
+#master-table .col2, #master-table .col3, #master-table .col4 {
+	width: 100px;
+}

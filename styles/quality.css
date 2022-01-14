@@ -1,0 +1,120 @@
+html {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+input {
+	width: 75px;
+	height: 16px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+select {
+	width: 79px;
+	height: 22px;
+	margin-left: 5px;
+}
+
+select:hover {
+	cursor: pointer;
+}
+
+button {
+	width: 80px;
+	background-color: white;
+	font-family: sans-serif;
+	font-size: 14px;
+	border: none;
+	border-radius: 3px;
+	margin-bottom: 3px;
+}
+
+button {
+	cursor: pointer;
+}
+
+a {
+	display: table-cell;
+	width: 80px;
+	background-color: white;
+	font-family: sans-serif;
+	font-size: 14px;
+	border: none;
+	border-radius: 3px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+}
+
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 570px;
+	height: 395px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 560px;
+	height: 385px;
+}
+
+.top {
+	display: inline-block;
+	width: 549px;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.top-left {
+	display: inline-block;
+	vertical-align: top;
+	width: 463px;
+}
+
+.controls {
+	display: inline-block;
+	vertical-align: top;
+	width: 81px;
+}
+
+.bottom-left {
+	display: inline-block;
+	vertical-align: top;
+	width: 350px;
+}
+
+.bottom-right {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	text-align: right;
+	margin-top: 40px;
+}
+
+.bottom-right input {
+	width: 191px;
+}
+
+.bottom-right select {
+	width: 195px;
+}
+
+#tool-input {
+	width: 328px;
+}

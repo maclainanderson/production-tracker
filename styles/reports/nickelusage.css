@@ -1,0 +1,159 @@
+html {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+table {
+    font-size: 12px;
+}
+
+th {
+    text-align: left;
+}
+
+.col1 {
+    width: 100px;
+}
+
+.col2 {
+    width: 340px;
+}
+
+.col3 {
+    width: 80px;
+}
+
+.col4 {
+    width: 80px;
+}
+
+.col5 {
+    width: 130px;
+}
+
+.col6 {
+    width: 90px;
+}
+
+.col7 {
+    width: 80px;
+}
+
+#date-time-div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#date-time-labels {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#date-label {
+    display: inline-block;
+    float: right;
+}
+
+#time-label {
+    display: inline-block;
+    float: right;
+}
+
+#date-time-values {
+    display: inline-block;
+}
+
+#date-value {
+    display: inline-block;
+    float: left;
+}
+
+#time-value {
+    display: inline-block;
+    float: left;
+}
+
+#title-div {
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+#title {
+    display: block;
+    margin: 0;
+}
+
+#subtitle {
+    display: block;
+    margin: 0;
+}
+
+#range-div {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+#range-labels {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#from-label {
+    float: right;
+}
+
+#to-label {
+    float: right;
+}
+
+#range-values {
+    display: inline-block;
+}
+
+#fresnel-total {
+    display: inline-block;
+    width: 800px;
+    margin-top: 30px;
+}
+
+#fresnel-count-div {
+    display: inline-block;
+}
+
+#fresnel-lbs-div {
+    display: inline-block;
+    float: right;
+}
+
+#reflex-total {
+    display: inline-block;
+    width: 800px;
+    margin-top: 30px;
+}
+
+#reflex-count-div {
+    display: inline-block;
+}
+
+#reflex-lbs-div {
+    display: inline-block;
+    float: right;
+}
+
+#total {
+    display: inline-block;
+    width: 800px;
+    margin-top: 30px;
+}
+
+#total-count-div {
+    display: inline-block;
+}
+
+#total-lbs-div {
+    display: inline-block;
+    float: right;
+}

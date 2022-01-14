@@ -1,0 +1,297 @@
+html {
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+input {
+	margin-left: 5px;
+	margin-bottom: 3px;
+	width: 100px;
+}
+
+select {
+	width: 100px;
+	height: 21px;
+	margin-left: 5px;
+}
+
+select:hover {
+	cursor: pointer;
+}
+
+textarea {
+	display: inline-block;
+}
+
+table {
+	width: 100%;
+	table-layout: fixed;
+	font-size: 12px;
+	border-collapse: collapse;
+}
+
+tbody {
+	display: block;
+	overflow: auto;
+	height: 230px;
+	background-color: white;
+}
+
+thead tr {
+	display: block;
+}
+
+tbody tr:hover {
+	cursor: pointer;
+}
+
+td {
+	text-align: center;
+}
+
+button {
+	width: 146px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: auto;
+}
+
+a {
+	display: table-cell;
+	width: 146px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+.container {
+	display: block;
+	width: 1167px;
+	margin: 100px auto;
+}
+
+.outer {
+	display: inline-block;
+	float: left;
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 910px;
+	height: 460px;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 900px;
+	height: 450px;
+}
+
+.filter-outer {
+	display: inline-block;
+	vertical-align: top;
+	float:left;
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 181px;
+}
+
+.filter-inner {
+	display: inline-block;
+	vertical-align: top;
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 171px;
+}
+
+.filter-inner select {
+	width: 154px;
+	margin-left: 0;
+	margin-bottom: 5px;
+}
+
+.filter-inner input {
+	width: 150px;
+	margin-left: 0;
+}
+
+.left-arrow {
+	width: 20px;
+	height: 20px;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	transform: rotate(-45deg);
+	margin: 11px 0 0 17px;
+}
+
+.right-arrow {
+	width: 20px;
+	height: 20px;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	transform: rotate(135deg);
+	margin: 11px 0 0 7px;
+}
+
+.order {
+	margin-left: 200px;
+}
+
+.filter {
+	margin-left: 100px;
+}
+
+.main {
+	height: 250px;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.left {
+	display: inline-block;
+	width: 600px;
+}
+
+.top {
+	display: inline-block;
+	width: 600px;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.top span {
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+}
+
+.top span input {
+	width: 90px;
+	margin-left: 0;
+}
+
+.bottom {
+	display: inline-block;
+	vertical-align: top;
+	width: 600px;
+	padding: 5px;
+}
+
+.bottom div span input {
+	width: 80px;
+}
+
+.bottom-top {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.bottom-middle {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.bottom-bottom {
+	display: inline-block;
+	width: 600px;
+	margin-left: 2px;
+}
+
+.controls {
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+	width: 146px;
+	padding: 5px;
+}
+
+.col1, .col3, .col4, .col6 {
+	width: 50px;
+}
+
+.col2, .col10 {
+	width: 100px;
+}
+
+.col7, .col8, .col9 {
+	width: 60px;
+}
+
+.col5 {
+	width: 70px;
+}
+
+.col11 {
+	width: 195px;
+	margin-left: 5px;
+}
+
+.col1, .col2, .col12 {
+	text-align: left;
+}
+
+.col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11 {
+	text-align: right;
+}
+
+#order-container {
+	margin-bottom: 10px;
+}
+
+#filter-container {
+	margin-bottom: 10px;
+}
+
+#arrow {
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-color: #c9c9c9;
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+}
+
+#arrow:hover {
+	cursor: pointer;
+}
+
+#remarks-span {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 3px;
+}

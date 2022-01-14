@@ -1,0 +1,264 @@
+html {
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+input {
+	width: 100px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+select {
+	margin-bottom: 3px;
+	height: 21px;
+	width: 104px;
+	margin-left: 5px;
+}
+
+button {
+	width: 120px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-bottom: 3px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: auto;
+}
+
+a {
+	display: table-cell;
+	width: 120px;
+	height: 18px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: sans-serif;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+
+table {
+	table-layout: fixed;
+}
+
+table thead tr {
+	display: block;
+	text-align: left;
+}
+
+table tbody {
+	display: block;
+	overflow: auto;
+	width: 100%;
+	max-height: 250px;
+	background-color: white;
+}
+
+.outer {
+	border-top: 1px solid white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid white;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 660px;
+	height: 382px;
+	margin: 10% auto 0 auto;
+}
+
+.inner {
+	border-top: 1px solid black;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid black;
+	padding: 5px;
+	background-color: #c9c9c9;
+	width: 650px;
+	height: 372px;
+}
+
+.basic-info {
+	display: inline-block;
+}
+
+.basic-info button {
+	width: 70px;
+	margin-left: 5px;
+}
+
+.controls {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+.tank-info {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+.status-info {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+.col1 {
+	width: 400px;
+}
+
+.col2 {
+	width: 90px;
+}
+
+.col3, .col5 {
+	width: 100px;
+}
+
+.col4 {
+	width: 85px;
+}
+
+#job-span {
+	margin-left: 21px;
+}
+
+#wo-span {
+	margin-left: 5px;
+}
+
+#po-span {
+	margin-left: 5px;
+}
+
+#tool-span {
+	margin-left: 29px;
+}
+
+#tool-input {
+	width: 250px;
+}
+
+#date-span {
+	margin-left: 11px;
+}
+
+#date-input {
+	width: 110px;
+}
+
+#operator-span {
+	margin-left: 0px;
+}
+
+#tank-span {
+	margin-left: 0px;
+}
+
+#tank-input {
+	width: 45px;
+}
+
+#station-input {
+	width: 45px;
+	margin-left: 6px;
+}
+
+#temp-span {
+	margin-left: 6px;
+}
+
+#time-span {
+	margin-left: 19px;
+}
+
+#passivated-span {
+	margin-left: 17px;
+}
+
+#location-span {
+	display: inline-block;
+	margin-left: 6px;
+}
+
+#drawer-span {
+	display: inline-block;
+	margin-left: 6px;
+}
+
+#status-span {
+	display: inline-block;
+	margin-left: 19px;
+}
+
+#defect-span {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#comment-span {
+	display: inline-block;
+	margin-bottom: 3px;
+	margin-top: 10px;
+	margin-left: 2px;
+}
+
+#comment-textarea {
+	display: inline-block;
+}
+
+#special-span {
+	display: inline-block;
+	margin-bottom: 3px;
+	margin-top: 10px;
+	margin-left: 2px;
+}
+
+#special-textarea {
+	display: inline-block;
+}
+
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+}
+
+#modal-content {
+	display: inline-block;
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #e6e6e6;
+	min-height: 85px;
+	text-align: left;
+}
+
+#close {
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#close:hover {
+	cursor: pointer;
+}
